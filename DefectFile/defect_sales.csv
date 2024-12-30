@@ -1,0 +1,3 @@
+sales_id,product_id,store_id,quantity,price,sale_date,region,table
+1,101,1,10,15.0,2024-09-01,High,target_table
+1,101,1,10,15.0,2024-09-01,High1,source_table

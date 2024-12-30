@@ -1,0 +1,159 @@
+2024-12-30 14:54:58,867  - INFO - Data extraction from sales_data.csv to staging_sales has started
+2024-12-30 14:54:58,867  - INFO - Fetching the data from Testdata/sales_data.csv
+2024-12-30 14:54:59,133  - INFO - Fetching data from the database table: staging_sales
+2024-12-30 14:54:59,133  - INFO - Comparing the data between Testdata/sales_data.csv and  staging_sales
+2024-12-30 14:55:01,013  - ERROR - Mismatch records at location: C:\Users\Anshu\Desktop\folder\ETL\CapstoneTestingFramework\DefectFile\defect_sales.csv
+2024-12-30 14:55:01,013  - ERROR - Error occurred during data extraction: Data validation failed
+2024-12-30 14:55:01,247  - INFO - Data extraction from product_data.csv to staging_product has started
+2024-12-30 14:55:01,247  - INFO - Fetching the data from Testdata/product_data.csv
+2024-12-30 14:55:01,247  - INFO - Fetching data from the database table: staging_product
+2024-12-30 14:55:01,247  - INFO - Comparing the data between Testdata/product_data.csv and  staging_product
+2024-12-30 14:55:01,310  - INFO - No mismatch records. Defect file was not created.
+2024-12-30 14:55:01,310  - INFO - Data Validation Passed
+2024-12-30 14:55:01,310  - INFO - Data extraction from product_data.csv to staging_product has completed
+2024-12-30 14:55:01,326  - INFO - Data extraction from supplier_data.json to staging_supplier has started
+2024-12-30 14:55:01,326  - INFO - Fetching the data from Testdata/supplier_data.json
+2024-12-30 14:55:01,579  - INFO - Fetching data from the database table: staging_supplier
+2024-12-30 14:55:01,579  - INFO - Comparing the data between Testdata/supplier_data.json and  staging_supplier
+2024-12-30 14:55:01,627  - INFO - No mismatch records. Defect file was not created.
+2024-12-30 14:55:01,627  - INFO - Data Validation Passed
+2024-12-30 14:55:01,627  - INFO - Data extraction from supplier_data.json to staging_supplier has completed
+2024-12-30 14:55:01,643  - INFO - Data extraction from inventory_data to staging_inventory has started
+2024-12-30 14:55:01,643  - INFO - Fetching the data from Testdata/inventory_data.xml
+2024-12-30 14:55:01,643  - ERROR - Error occured due during data extraction lxml not found, please install or use the etree parser.
+2024-12-30 15:00:53,632  - INFO - Data extraction from sales_data.csv to staging_sales has started
+2024-12-30 15:00:53,632  - INFO - Fetching the data from Testdata/sales_data.csv
+2024-12-30 15:00:53,632  - INFO - Fetching data from the database table: staging_sales
+2024-12-30 15:00:53,648  - INFO - Comparing the data between Testdata/sales_data.csv and  staging_sales
+2024-12-30 15:00:53,695  - INFO - No mismatch records. Defect file was not created.
+2024-12-30 15:00:53,695  - INFO - Data Validation Passed
+2024-12-30 15:00:53,695  - INFO - Data extraction from sales_data.csv to sales_staging has completed
+2024-12-30 15:00:53,729  - INFO - Data extraction from product_data.csv to staging_product has started
+2024-12-30 15:00:53,729  - INFO - Fetching the data from Testdata/product_data.csv
+2024-12-30 15:00:53,729  - INFO - Fetching data from the database table: staging_product
+2024-12-30 15:00:53,729  - INFO - Comparing the data between Testdata/product_data.csv and  staging_product
+2024-12-30 15:00:53,760  - INFO - No mismatch records. Defect file was not created.
+2024-12-30 15:00:53,760  - INFO - Data Validation Passed
+2024-12-30 15:00:53,760  - INFO - Data extraction from product_data.csv to staging_product has completed
+2024-12-30 15:00:53,777  - INFO - Data extraction from supplier_data.json to staging_supplier has started
+2024-12-30 15:00:53,777  - INFO - Fetching the data from Testdata/supplier_data.json
+2024-12-30 15:00:53,777  - INFO - Fetching data from the database table: staging_supplier
+2024-12-30 15:00:53,777  - INFO - Comparing the data between Testdata/supplier_data.json and  staging_supplier
+2024-12-30 15:00:53,793  - INFO - No mismatch records. Defect file was not created.
+2024-12-30 15:00:53,793  - INFO - Data Validation Passed
+2024-12-30 15:00:53,793  - INFO - Data extraction from supplier_data.json to staging_supplier has completed
+2024-12-30 15:00:53,856  - INFO - Data extraction from inventory_data to staging_inventory has started
+2024-12-30 15:00:53,856  - INFO - Fetching the data from Testdata/inventory_data.xml
+2024-12-30 15:00:53,856  - ERROR - Error occured due during data extraction lxml not found, please install or use the etree parser.
+2024-12-30 15:00:57,705  - INFO - Data validation started between stores table from sqlserver database to staging_stores table from mysql database
+2024-12-30 15:00:57,705  - INFO - query_expected:Running SQL query to read the data from stores table from sqlserver database
+2024-12-30 15:00:57,705  - INFO - query_actual:Running SQL query to read the data from staging_stores table from mysql database
+2024-12-30 15:00:58,006  - INFO - Validating data from source to target
+2024-12-30 15:00:58,100  - INFO - No mismatch records. Defect file was not created.
+2024-12-30 15:00:58,100  - INFO - Data Validation Passed
+2024-12-30 15:00:58,100  - INFO - Data validation completed between stores table of sqlserver database to staging_stores table of mysql database
+2024-12-30 15:04:23,771  - INFO - Data extraction from sales_data.csv to staging_sales has started
+2024-12-30 15:04:23,771  - INFO - Fetching the data from Testdata/sales_data.csv
+2024-12-30 15:04:23,786  - INFO - Fetching data from the database table: staging_sales
+2024-12-30 15:04:23,786  - INFO - Comparing the data between Testdata/sales_data.csv and  staging_sales
+2024-12-30 15:04:23,818  - INFO - No mismatch records. Defect file was not created.
+2024-12-30 15:04:23,818  - INFO - Data Validation Passed
+2024-12-30 15:04:23,818  - INFO - Data extraction from sales_data.csv to sales_staging has completed
+2024-12-30 15:04:23,835  - INFO - Data extraction from product_data.csv to staging_product has started
+2024-12-30 15:04:23,835  - INFO - Fetching the data from Testdata/product_data.csv
+2024-12-30 15:04:23,835  - INFO - Fetching data from the database table: staging_product
+2024-12-30 15:04:23,835  - INFO - Comparing the data between Testdata/product_data.csv and  staging_product
+2024-12-30 15:04:23,851  - INFO - No mismatch records. Defect file was not created.
+2024-12-30 15:04:23,851  - INFO - Data Validation Passed
+2024-12-30 15:04:23,851  - INFO - Data extraction from product_data.csv to staging_product has completed
+2024-12-30 15:04:23,867  - INFO - Data extraction from supplier_data.json to staging_supplier has started
+2024-12-30 15:04:23,867  - INFO - Fetching the data from Testdata/supplier_data.json
+2024-12-30 15:04:23,867  - INFO - Fetching data from the database table: staging_supplier
+2024-12-30 15:04:23,867  - INFO - Comparing the data between Testdata/supplier_data.json and  staging_supplier
+2024-12-30 15:04:23,883  - INFO - No mismatch records. Defect file was not created.
+2024-12-30 15:04:23,883  - INFO - Data Validation Passed
+2024-12-30 15:04:23,883  - INFO - Data extraction from supplier_data.json to staging_supplier has completed
+2024-12-30 15:04:23,899  - INFO - Data extraction from inventory_data to staging_inventory has started
+2024-12-30 15:04:23,899  - INFO - Fetching the data from Testdata/inventory_data.xml
+2024-12-30 15:04:24,308  - INFO - Fetching data from the database table: staging_inventory
+2024-12-30 15:04:24,308  - INFO - Comparing the data between Testdata/inventory_data.xml and  staging_inventory
+2024-12-30 15:04:24,543  - INFO - No mismatch records. Defect file was not created.
+2024-12-30 15:04:24,543  - INFO - Data Validation Passed
+2024-12-30 15:04:24,543  - INFO - Data extraction from inventory_data to staging_inventory has completed
+2024-12-30 15:04:25,113  - INFO - Data validation started between stores table from sqlserver database to staging_stores table from mysql database
+2024-12-30 15:04:25,113  - INFO - query_expected:Running SQL query to read the data from stores table from sqlserver database
+2024-12-30 15:04:25,113  - INFO - query_actual:Running SQL query to read the data from staging_stores table from mysql database
+2024-12-30 15:04:25,222  - INFO - Validating data from source to target
+2024-12-30 15:04:25,222  - INFO - No mismatch records. Defect file was not created.
+2024-12-30 15:04:25,222  - INFO - Data Validation Passed
+2024-12-30 15:04:25,222  - INFO - Data validation completed between stores table of sqlserver database to staging_stores table of mysql database
+2024-12-30 15:10:09,963  - INFO - Data extraction from sales_data.csv to staging_sales has started
+2024-12-30 15:10:09,963  - INFO - Fetching the data from Testdata/sales_data.csv
+2024-12-30 15:10:10,010  - INFO - Fetching data from the database table: staging_sales
+2024-12-30 15:10:10,010  - INFO - Comparing the data between Testdata/sales_data.csv and  staging_sales
+2024-12-30 15:10:10,089  - INFO - No mismatch records. Defect file was not created.
+2024-12-30 15:10:10,089  - INFO - Data Validation Passed
+2024-12-30 15:10:10,089  - INFO - Data extraction from sales_data.csv to sales_staging has completed
+2024-12-30 15:10:10,105  - INFO - Data extraction from product_data.csv to staging_product has started
+2024-12-30 15:10:10,105  - INFO - Fetching the data from Testdata/product_data.csv
+2024-12-30 15:10:10,105  - INFO - Fetching data from the database table: staging_product
+2024-12-30 15:10:10,105  - INFO - Comparing the data between Testdata/product_data.csv and  staging_product
+2024-12-30 15:10:10,121  - INFO - No mismatch records. Defect file was not created.
+2024-12-30 15:10:10,121  - INFO - Data Validation Passed
+2024-12-30 15:10:10,121  - INFO - Data extraction from product_data.csv to staging_product has completed
+2024-12-30 15:10:10,138  - INFO - Data extraction from supplier_data.json to staging_supplier has started
+2024-12-30 15:10:10,138  - INFO - Fetching the data from Testdata/supplier_data.json
+2024-12-30 15:10:10,138  - INFO - Fetching data from the database table: staging_supplier
+2024-12-30 15:10:10,138  - INFO - Comparing the data between Testdata/supplier_data.json and  staging_supplier
+2024-12-30 15:10:10,154  - INFO - No mismatch records. Defect file was not created.
+2024-12-30 15:10:10,154  - INFO - Data Validation Passed
+2024-12-30 15:10:10,154  - INFO - Data extraction from supplier_data.json to staging_supplier has completed
+2024-12-30 15:10:10,177  - INFO - Data extraction from inventory_data to staging_inventory has started
+2024-12-30 15:10:10,177  - INFO - Fetching the data from Testdata/inventory_data.xml
+2024-12-30 15:10:10,193  - INFO - Fetching data from the database table: staging_inventory
+2024-12-30 15:10:10,193  - INFO - Comparing the data between Testdata/inventory_data.xml and  staging_inventory
+2024-12-30 15:10:10,257  - INFO - No mismatch records. Defect file was not created.
+2024-12-30 15:10:10,257  - INFO - Data Validation Passed
+2024-12-30 15:10:10,257  - INFO - Data extraction from inventory_data to staging_inventory has completed
+2024-12-30 15:10:10,715  - INFO - Data validation started between stores table from sqlserver database to staging_stores table from mysql database
+2024-12-30 15:10:10,715  - INFO - query_expected:Running SQL query to read the data from stores table from sqlserver database
+2024-12-30 15:10:10,715  - INFO - query_actual:Running SQL query to read the data from staging_stores table from mysql database
+2024-12-30 15:10:10,731  - INFO - Validating data from source to target
+2024-12-30 15:10:10,731  - INFO - No mismatch records. Defect file was not created.
+2024-12-30 15:10:10,731  - INFO - Data Validation Passed
+2024-12-30 15:10:10,731  - INFO - Data validation completed between stores table of sqlserver database to staging_stores table of mysql database
+2024-12-30 15:13:07,493  - INFO - Data extraction from sales_data.csv to staging_sales has started
+2024-12-30 15:13:07,493  - INFO - Fetching the data from Testdata/sales_data.csv
+2024-12-30 15:13:07,493  - INFO - Fetching data from the database table: staging_sales
+2024-12-30 15:13:07,493  - INFO - Comparing the data between Testdata/sales_data.csv and  staging_sales
+2024-12-30 15:13:07,540  - INFO - No mismatch records. Defect file was not created.
+2024-12-30 15:13:07,540  - INFO - Data Validation Passed
+2024-12-30 15:13:07,540  - INFO - Data extraction from sales_data.csv to sales_staging has completed
+2024-12-30 15:13:07,555  - INFO - Data extraction from product_data.csv to staging_product has started
+2024-12-30 15:13:07,555  - INFO - Fetching the data from Testdata/product_data.csv
+2024-12-30 15:13:07,555  - INFO - Fetching data from the database table: staging_product
+2024-12-30 15:13:07,555  - INFO - Comparing the data between Testdata/product_data.csv and  staging_product
+2024-12-30 15:13:07,571  - INFO - No mismatch records. Defect file was not created.
+2024-12-30 15:13:07,571  - INFO - Data Validation Passed
+2024-12-30 15:13:07,571  - INFO - Data extraction from product_data.csv to staging_product has completed
+2024-12-30 15:13:07,587  - INFO - Data extraction from supplier_data.json to staging_supplier has started
+2024-12-30 15:13:07,587  - INFO - Fetching the data from Testdata/supplier_data.json
+2024-12-30 15:13:07,587  - INFO - Fetching data from the database table: staging_supplier
+2024-12-30 15:13:07,587  - INFO - Comparing the data between Testdata/supplier_data.json and  staging_supplier
+2024-12-30 15:13:07,618  - INFO - No mismatch records. Defect file was not created.
+2024-12-30 15:13:07,618  - INFO - Data Validation Passed
+2024-12-30 15:13:07,618  - INFO - Data extraction from supplier_data.json to staging_supplier has completed
+2024-12-30 15:13:07,618  - INFO - Data extraction from inventory_data to staging_inventory has started
+2024-12-30 15:13:07,618  - INFO - Fetching the data from Testdata/inventory_data.xml
+2024-12-30 15:13:07,649  - INFO - Fetching data from the database table: staging_inventory
+2024-12-30 15:13:07,649  - INFO - Comparing the data between Testdata/inventory_data.xml and  staging_inventory
+2024-12-30 15:13:07,665  - INFO - No mismatch records. Defect file was not created.
+2024-12-30 15:13:07,665  - INFO - Data Validation Passed
+2024-12-30 15:13:07,665  - INFO - Data extraction from inventory_data to staging_inventory has completed
+2024-12-30 15:13:08,167  - INFO - Data validation started between stores table from sqlserver database to staging_stores table from mysql database
+2024-12-30 15:13:08,167  - INFO - query_expected:Running SQL query to read the data from stores table from sqlserver database
+2024-12-30 15:13:08,167  - INFO - query_actual:Running SQL query to read the data from staging_stores table from mysql database
+2024-12-30 15:13:08,183  - INFO - Validating data from source to target
+2024-12-30 15:13:08,199  - INFO - No mismatch records. Defect file was not created.
+2024-12-30 15:13:08,199  - INFO - Data Validation Passed
+2024-12-30 15:13:08,199  - INFO - Data validation completed between stores table of sqlserver database to staging_stores table of mysql database
