@@ -18,11 +18,10 @@ class TestDataExtraction:
                             'fact_Sales_differences.csv')
             self.logger.info("test_fact_sales_table_load test has completed .......")
         except Exception as e:
-            self.logger.error(f"Error occured during data transformation: {e}")
+            self.logger.error(f"Error details: {e}")
             pytest.fail(f"Test failed due to an error {e}")
 
-    @pytest.mark.smoke
-    @pytest.mark.regression
+
     def test_monthly_sales_summary_table_load(self,connect_mysqldb_engine):
         self.logger.info("test_monthly_sales_summary_table_load test has started .......")
         try:
@@ -32,11 +31,9 @@ class TestDataExtraction:
                             'Monthly_Sales_Differances.csv')
             self.logger.info("test_monthly_sales_summary_table_load test has completed .......")
         except Exception as e:
-            self.logger.error(f"Error occured during data transformation: {e}")
+            self.logger.error(f"Error details: {e}")
             pytest.fail(f"Test failed due to an error {e}")
 
-    @pytest.mark.smoke
-    @pytest.mark.regression
     def test_inventory_fact_load(self,connect_mysqldb_engine):
         self.logger.info("test_inventory_fact_load test has started .......")
         try:
@@ -46,11 +43,9 @@ class TestDataExtraction:
                             'inventory_Fact_differences.csv')
             self.logger.info("test_inventory_fact_load test has completed .......")
         except Exception as e:
-            self.logger.error(f"Error occured during data transformation: {e}")
+            self.logger.error(f"Error details: {e}")
             pytest.fail(f"Test failed due to an error {e}")
 
-    @pytest.mark.smoke
-    @pytest.mark.regression
     def test__inventory_levels_by_store_fact_load(self,connect_mysqldb_engine):
         self.logger.info("test__inventory_levels_by_store_fact_load test has started .......")
         try:
@@ -60,5 +55,5 @@ class TestDataExtraction:
                             'Inventory_Levels_By_Store_differences.csv')
             self.logger.info("test__inventory_levels_by_store_fact_load test has completed .......")
         except Exception as e:
-            self.logger.error(f"Error occured during data transformation: {e}")
+            self.logger.error(f"Error details: {e}")
             pytest.fail(f"Test failed due to an error {e}")

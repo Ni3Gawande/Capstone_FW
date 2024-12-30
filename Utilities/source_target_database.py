@@ -2,6 +2,8 @@ from Utilities.custom_logger import LogGen
 import pandas as pd
 from Utilities.defect_file_utilities import SaveFile
 
+####  important we are using astype(str) in data vaidation because there are different  datatype in both source and target ###
+
 class DatabaseChecks:
     savefile=SaveFile()
     log_gen = LogGen()
