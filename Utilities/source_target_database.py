@@ -117,8 +117,8 @@ class DatabaseChecks:
 
     # Verify the data integrity and consistency within each column in the source and target tables.
     def check_data_validation(self,source_query, source_engine, target_query, target_engine, file_location):
-        df_source = pd.read_sql(source_query, source_engine)
-        df_actual = pd.read_sql(target_query, target_engine)
+        df_source = pd.read_sql(source_query, source_engine).astype(str)
+        df_actual = pd.read_sql(target_query, target_engine).astype(str)
         self.logger.info('Validating data from source to target')
         defect_file = self.savefile.save_the_mismatch_to_file(df_source, df_actual, file_location)
         if defect_file.empty:

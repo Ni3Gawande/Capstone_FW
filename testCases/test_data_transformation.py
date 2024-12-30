@@ -12,8 +12,8 @@ class TestDataExtraction:
     def test_fact_sales_table_load(self,connect_mysqldb_engine):
         self.logger.info("test_fact_sales_table_load test has started .......")
         try:
-            query_expected = """select sales_id,product_id,store_id,quantity,total_amount as total_sales ,sale_date from sales_with_deatils order by sales_id,product_id,store_id ;"""
-            query_actual = """select sales_id,product_id,store_id,quantity,total_sales,sale_date from fact_sales order by sales_id,product_id,store_id ;"""
+            query_expected = """select sales_id,product_id,store_id,quantity,total_amount as total_sales ,sale_date from sales_with_deatils """
+            query_actual = """select sales_id,product_id,store_id,quantity,total_sales,sale_date from fact_sales """
             self.database.check_data_validation(query_expected,connect_mysqldb_engine, query_actual,connect_mysqldb_engine,
                             'fact_Sales_differences.csv')
             self.logger.info("test_fact_sales_table_load test has completed .......")
@@ -40,8 +40,8 @@ class TestDataExtraction:
     def test_inventory_fact_load(self,connect_mysqldb_engine):
         self.logger.info("test_inventory_fact_load test has started .......")
         try:
-            query_expected = """select * from  staging_inventory order by product_id,store_id;"""
-            query_actual = """select * from  fact_inventory order by product_id,store_id;"""
+            query_expected = """select * from  staging_inventory """
+            query_actual = """select * from  fact_inventory """
             self.database.check_data_validation(query_expected, connect_mysqldb_engine, query_actual, connect_mysqldb_engine,
                             'inventory_Fact_differences.csv')
             self.logger.info("test_inventory_fact_load test has completed .......")
