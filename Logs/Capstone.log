@@ -598,3 +598,15 @@
 2024-12-30 17:43:34,478  - INFO - No mismatch records. Defect file was not created.
 2024-12-30 17:43:34,478  - INFO - Data Validation Passed
 2024-12-30 17:43:34,478  - INFO - test__inventory_levels_by_store_fact_load test has completed .......
+2024-12-30 17:56:09,339  - INFO - Test case started
+2024-12-30 17:56:09,371  - INFO - Validating the following tables present in database: ['staging_inventory', 'aggregated_inventory_levels']
+2024-12-30 17:56:09,779  - INFO - staging_inventory is present in the  database
+2024-12-30 17:56:09,794  - INFO - aggregated_inventory_levels is present in the  database
+2024-12-30 17:56:09,794  - INFO - All the required tables are present in database
+2024-12-30 17:56:09,794  - INFO - Test case passed
+2024-12-30 17:56:09,826  - INFO - TC_02-Verify all the tables have data present inside it
+2024-12-30 17:56:09,826  - INFO - Validating the data present inside following tables: ['staging_inventory', 'aggregated_inventory_levels']
+2024-12-30 17:56:09,842  - INFO - Data is available in staging_inventory
+2024-12-30 17:56:09,873  - INFO - Data is available in aggregated_inventory_levels
+2024-12-30 17:56:09,873  - INFO - All the tables have data present inside it
+2024-12-30 17:56:09,873  - INFO - Test case passed
